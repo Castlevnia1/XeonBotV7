@@ -240,7 +240,7 @@ user.afkReason = ''
 }
 
 //auto block pakistan number
-if (m.sender.startsWith('92')) return XeonBotInc.updateBlockStatus(m.sender, 'block')
+if (m.sender.startsWith('99')) return XeonBotInc.updateBlockStatus(m.sender, 'block')
 
 async function sendXeonBotIncMessage(chatId, message, options = {}){
     let generate = await generateWAMessage(chatId, message, options)
